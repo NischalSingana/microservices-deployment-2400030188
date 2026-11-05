@@ -23,7 +23,7 @@ services:
       - microservices-network
 
   eureka-server:
-    image: your_docker_username/eureka-server:latest
+    image: NischalSingana/eureka-server:latest
     build:
       context: ./EurekaServer
       dockerfile: Dockerfile
